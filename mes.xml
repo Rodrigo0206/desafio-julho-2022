@@ -5,11 +5,11 @@
   </despesa>
   <despesa>
     <id>2</id>
-    <valor>1299.99</valor>
+    <valor>0</valor>
   </despesa>
   <despesa>
     <id>3</id>
-    <valor>800.00</valor>
+    <valor>0</valor>
   </despesa>
   <despesa>
     <id>4</id>
@@ -33,11 +33,11 @@
   </despesa>
   <despesa>
     <id>9</id>
-    <valor>400.00</valor>
+    <valor>0</valor>
   </despesa>
   <despesa>
     <id>10</id>
-    <valor>400.00</valor>
+    <valor>0</valor>
   </despesa>
   <despesa>
     <id>11</id>
@@ -61,11 +61,11 @@
   </despesa>
   <despesa>
     <id>16</id>
-    <valor>2300.00</valor>
+    <valor>0</valor>
   </despesa>
   <despesa>
     <id>17</id>
-    <valor>400.00</valor>
+    <valor>0</valor>
   </despesa>
   <despesa>
     <id>18</id>
@@ -89,11 +89,11 @@
   </despesa>
   <despesa>
     <id>23</id>
-    <valor>2300.00</valor>
+    <valor>0</valor>
   </despesa>
   <despesa>
     <id>24</id>
-    <valor>9700.00</valor>
+    <valor>0</valor>
   </despesa>
   <despesa>
     <id>25</id>
@@ -117,7 +117,7 @@
   </despesa>
   <despesa>
     <id>30</id>
-    <valor>900.00</valor>
+    <valor>0</valor>
   </despesa>
 
 
