@@ -2,15 +2,124 @@
     "faturamento": [
         {
             "dia": "01-01-2022",
-            "faturamentoDiario": 1000
+            "faturamentoDiario": 0
         },
         {
             "dia": "02-01-2022",
             "faturamentoDiario": 0
         },
         {
-            "dia": "03-01-2022",
+            "dia": "04-01-2022",
+            "faturamentoDiario": 1050
+        },
+        {
+            "dia": "05-01-2022",
+            "faturamentoDiario": 1200
+        },
+        {
+            "dia": "06-01-2022",
+            "faturamentoDiario": 700
+        },
+        {
+            "dia": "07-01-2022",
+            "faturamentoDiario": 1134
+        },
+        {
+            "dia": "08-01-2022",
+            "faturamentoDiario": 1344
+        },
+        {
+            "dia": "09-01-2022",
+            "faturamentoDiario": 0
+        },
+        {
+            "dia": "10-01-2022",
+            "faturamentoDiario": 0
+        },
+        {
+            "dia": "11-01-2022",
+            "faturamentoDiario": 1555
+        },
+        {
+            "dia": "12-01-2022",
+            "faturamentoDiario": 456
+        },
+        {
+            "dia": "13-01-2022",
+            "faturamentoDiario": 300
+        },
+        {
+            "dia": "14-01-2022",
+            "faturamentoDiario": 467
+        },
+        {
+            "dia": "15-01-2022",
+            "faturamentoDiario": 578
+        },
+        {
+            "dia": "16-01-2022",
+            "faturamentoDiario": 0
+        },
+        {
+            "dia": "17-01-2022",
+            "faturamentoDiario": 0
+        },
+        {
+            "dia": "18-01-2022",
+            "faturamentoDiario": 322
+        },
+        {
+            "dia": "19-01-2022",
+            "faturamentoDiario":311
+        },
+        {
+            "dia": "20-01-2022",
+            "faturamentoDiario": 156
+        },
+        {
+            "dia": "21-01-2022",
+            "faturamentoDiario": 900
+        },
+        {
+            "dia": "22-01-2022",
+            "faturamentoDiario": 321
+        },
+        {
+            "dia": "23-01-2022",
+            "faturamentoDiario": 0
+        },
+        {
+            "dia": "24-01-2022",
+            "faturamentoDiario": 0
+        },
+        {
+            "dia": "25-01-2022",
+            "faturamentoDiario": 2000
+        },
+        {
+            "dia": "26-01-2022",
+            "faturamentoDiario": 211
+        },
+        {
+            "dia": "27-01-2022",
+            "faturamentoDiario":576
+        },
+        {
+            "dia": "28-01-2022",
+            "faturamentoDiario": 1500
+        },
+        {
+            "dia": "29-01-2022",
+            "faturamentoDiario": 900
+        },
+        {
+            "dia": "30-01-2022",
             "faturamentoDiario": 1020
+        },
+        {
+            "dia": "31-01-2022",
+            "faturamentoDiario": 1000
         }
+        
     ]
 }
