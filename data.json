@@ -1,0 +1,16 @@
+{
+    "faturamento": [
+        {
+            "dia": "01-01-2022",
+            "faturamentoDiario": 1000
+        },
+        {
+            "dia": "02-01-2022",
+            "faturamentoDiario": 0
+        },
+        {
+            "dia": "03-01-2022",
+            "faturamentoDiario": 1020
+        }
+    ]
+}
