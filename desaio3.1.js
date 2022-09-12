@@ -4,9 +4,9 @@ gerarRelatorioFaturamentoPorDia();
 
 function gerarRelatorioFaturamentoPorDia(){
 
-    lerArquivoJson("data.json").then(faturamento => {
+    lerArquivoJson("data.json").then(retorno => {
 
-        mostrarFaturamentoDia(faturamento);
+        mostrarFaturamentoDia(retorno);
         console.log("terminou");
     });
 
@@ -19,6 +19,8 @@ function mostrarFaturamentoDia(faturamento){
     let quantidade =0;
     let menorValor = 0;
     let maiorValor = 0;
+   
+    let media = 0;
 
 
     faturamento["faturamento"].forEach(obj => {
@@ -27,6 +29,7 @@ function mostrarFaturamentoDia(faturamento){
         let faturamentoDiario = obj["faturamentoDiario"];
         
         console.log(`${dia} ${faturamentoDiario}`);
+        
         if(faturamentoDiario > 0){
             total += faturamentoDiario;
             quantidade++;
@@ -50,16 +53,32 @@ function mostrarFaturamentoDia(faturamento){
         }
       }
       }
+      
         
         console.log('-------------------');
 
     });
-    const media = total/quantidade;
+    
+
+    media = total/quantidade;
     console.log(`Media : ${media.toFixed(2)}`);
+
+    let quantosDiasSuperiorMedia = 0;
+
+    faturamento["faturamento"].forEach(obj => {
+      let faturamentoDiario = obj["faturamentoDiario"];
+      let dia = obj["dia"];
+      if (faturamentoDiario > media ){
+        console.log(`${dia} `);
+        quantosDiasSuperiorMedia++;
+      }
+
+    });
 
     console.log('-------------------');
     console.log(`menorValor ${menorValor}`);
     console.log(`maiorValor ${maiorValor}`);
+    console.log(`quantosDiasSuperiorMedia ${quantosDiasSuperiorMedia}`);
 }
 
 async function  lerArquivoJson(arquivoJsonNome){
